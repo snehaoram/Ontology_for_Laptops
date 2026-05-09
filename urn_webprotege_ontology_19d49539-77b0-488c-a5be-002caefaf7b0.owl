@@ -1,0 +1,380 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:19d49539-77b0-488c-a5be-002caefaf7b0#"
+     xml:base="urn:webprotege:ontology:19d49539-77b0-488c-a5be-002caefaf7b0"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:webprotege="http://webprotege.stanford.edu/">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:19d49539-77b0-488c-a5be-002caefaf7b0"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R76LIzVswutiphHwvdHmksS -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R76LIzVswutiphHwvdHmksS">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/RNCZtezS1iFFM1ol0p1VCN"/>
+        <rdfs:label xml:lang="en">hasProcessor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8Hwysdx9yBUO6kuwSMGBXQ -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8Hwysdx9yBUO6kuwSMGBXQ">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/RNCZtezS1iFFM1ol0p1VCN"/>
+        <rdfs:label xml:lang="en">hasDisplay</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBJDCFb4LMjNlsYqETckSy7 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBJDCFb4LMjNlsYqETckSy7">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/RNCZtezS1iFFM1ol0p1VCN"/>
+        <rdfs:label xml:lang="en">hasMemory</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC7hRAO13SsNjop7pI4oe1t -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RC7hRAO13SsNjop7pI4oe1t">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/RNCZtezS1iFFM1ol0p1VCN"/>
+        <rdfs:label xml:lang="en">hasStorage</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCBkWigyl8sQg5IrgYlSNRq -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCBkWigyl8sQg5IrgYlSNRq">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/RNCZtezS1iFFM1ol0p1VCN"/>
+        <rdfs:label xml:lang="en">hasOS</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RNCZtezS1iFFM1ol0p1VCN -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RNCZtezS1iFFM1ol0p1VCN">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R7O1qW6WhWtW1hFZwhRe3FK"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R71CntmsXKq25eE76IL7sVW"/>
+        <rdfs:label xml:lang="en">hasComponent</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7WoRT9y0Xh336c52HCOebY -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7WoRT9y0Xh336c52HCOebY">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">modelName</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9qavdHUONkNzjgOh3Os18N -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9qavdHUONkNzjgOh3Os18N">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">osName</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC3kvUzvUc1SWagaaBMr1TM -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RC3kvUzvUc1SWagaaBMr1TM">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">ramSizeGB</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCPI36o3tM1MikTaO95mfcp -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCPI36o3tM1MikTaO95mfcp">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">processorName</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCi4YvRUvlAfifzEecMDAca -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCi4YvRUvlAfifzEecMDAca">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:label xml:lang="en">screenSizeInches</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDHsbOCaBqDj5YlhGGVN2zA -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDHsbOCaBqDj5YlhGGVN2zA">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">storageCapacityGB</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R71CntmsXKq25eE76IL7sVW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R71CntmsXKq25eE76IL7sVW">
+        <rdfs:label xml:lang="en">Component</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7O1qW6WhWtW1hFZwhRe3FK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7O1qW6WhWtW1hFZwhRe3FK">
+        <rdfs:label xml:lang="en">Device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8KDriGnanYOjAiJdw3WCn8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8KDriGnanYOjAiJdw3WCn8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R71CntmsXKq25eE76IL7sVW"/>
+        <rdfs:label xml:lang="en">Memory (RAM)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8wIwgAg0h7u93Nf1FMjnK6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8wIwgAg0h7u93Nf1FMjnK6">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R71CntmsXKq25eE76IL7sVW"/>
+        <rdfs:label xml:lang="en">Storage (Hard drive/SSD)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9ZVdDS22MH4h1YSbrdM9J -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9ZVdDS22MH4h1YSbrdM9J">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R71CntmsXKq25eE76IL7sVW"/>
+        <rdfs:label xml:lang="en">Display (Screen)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBHc1vAVdrnfDWaUI8CVyR6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBHc1vAVdrnfDWaUI8CVyR6">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCSMvYl2a7VAeP71nPm0RD0"/>
+        <rdfs:label xml:lang="en">Laptops</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCSMvYl2a7VAeP71nPm0RD0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCSMvYl2a7VAeP71nPm0RD0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7O1qW6WhWtW1hFZwhRe3FK"/>
+        <rdfs:label xml:lang="en">Computer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCrlf3D7GaUOWn8qJAAMDn7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCrlf3D7GaUOWn8qJAAMDn7">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R71CntmsXKq25eE76IL7sVW"/>
+        <rdfs:label xml:lang="en">OperatingSystem (OS)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RFNjTGTbrdnqtQQJqOd2Kw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RFNjTGTbrdnqtQQJqOd2Kw">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R71CntmsXKq25eE76IL7sVW"/>
+        <rdfs:label xml:lang="en">Processor (CPU)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8T49IsBKMPnedSL5NPD7Wc -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8T49IsBKMPnedSL5NPD7Wc">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KDriGnanYOjAiJdw3WCn8"/>
+        <webprotege:RC3kvUzvUc1SWagaaBMr1TM rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</webprotege:RC3kvUzvUc1SWagaaBMr1TM>
+        <rdfs:label xml:lang="en">Dell_RAM_16GB</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8uwa35XHZvw3XkoWfngy52 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8uwa35XHZvw3XkoWfngy52">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9ZVdDS22MH4h1YSbrdM9J"/>
+        <webprotege:RCi4YvRUvlAfifzEecMDAca rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.6</webprotege:RCi4YvRUvlAfifzEecMDAca>
+        <rdfs:label xml:lang="en">Mac_Liquid_Retina_13.6</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8vYRHOU5qpKWJYdHKL8dYG -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8vYRHOU5qpKWJYdHKL8dYG">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCrlf3D7GaUOWn8qJAAMDn7"/>
+        <webprotege:R9qavdHUONkNzjgOh3Os18N>macOS Monterey</webprotege:R9qavdHUONkNzjgOh3Os18N>
+        <rdfs:label xml:lang="en">macOS_Monterey</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9ZSEamCvi9WV5QTye14Qm7 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9ZSEamCvi9WV5QTye14Qm7">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCrlf3D7GaUOWn8qJAAMDn7"/>
+        <webprotege:R9qavdHUONkNzjgOh3Os18N>Windows 11 Pro</webprotege:R9qavdHUONkNzjgOh3Os18N>
+        <rdfs:label xml:lang="en">Windows_11_Pro</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBITG1NchFuUJvWuTXw9Ckr -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBITG1NchFuUJvWuTXw9Ckr">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RFNjTGTbrdnqtQQJqOd2Kw"/>
+        <webprotege:RCPI36o3tM1MikTaO95mfcp>Apple M2 Chip</webprotege:RCPI36o3tM1MikTaO95mfcp>
+        <rdfs:label xml:lang="en">Apple_M2_Chip</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBOlNJlKYXFb3TBPCIpj53N -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBOlNJlKYXFb3TBPCIpj53N">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9ZVdDS22MH4h1YSbrdM9J"/>
+        <webprotege:RCi4YvRUvlAfifzEecMDAca rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.6</webprotege:RCi4YvRUvlAfifzEecMDAca>
+        <rdfs:label xml:lang="en">Dell_Screen_15.6</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBYnPoUOwBhxqYZRGuMvVSd -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBYnPoUOwBhxqYZRGuMvVSd">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBHc1vAVdrnfDWaUI8CVyR6"/>
+        <webprotege:R76LIzVswutiphHwvdHmksS rdf:resource="http://webprotege.stanford.edu/RBITG1NchFuUJvWuTXw9Ckr"/>
+        <webprotege:R8Hwysdx9yBUO6kuwSMGBXQ rdf:resource="http://webprotege.stanford.edu/R8uwa35XHZvw3XkoWfngy52"/>
+        <webprotege:RBJDCFb4LMjNlsYqETckSy7 rdf:resource="http://webprotege.stanford.edu/RDnGrVLYWRzcg3zMunF6uiH"/>
+        <webprotege:RCBkWigyl8sQg5IrgYlSNRq rdf:resource="http://webprotege.stanford.edu/R8vYRHOU5qpKWJYdHKL8dYG"/>
+        <webprotege:R7WoRT9y0Xh336c52HCOebY>MacBook Air M2</webprotege:R7WoRT9y0Xh336c52HCOebY>
+        <rdfs:label xml:lang="en">MacBook_Air_M2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBvl4LENAarbEtnRPvDTHJM -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBvl4LENAarbEtnRPvDTHJM">
+        <rdfs:label xml:lang="en">storageCapacityGB</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCzDmqcRBitdKVBQfrsA6HB -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCzDmqcRBitdKVBQfrsA6HB">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RFNjTGTbrdnqtQQJqOd2Kw"/>
+        <webprotege:RCPI36o3tM1MikTaO95mfcp>Intel Core i5 1135G7</webprotege:RCPI36o3tM1MikTaO95mfcp>
+        <rdfs:label xml:lang="en">Intel_Core_i5_1135G7</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDnGrVLYWRzcg3zMunF6uiH -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDnGrVLYWRzcg3zMunF6uiH">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8KDriGnanYOjAiJdw3WCn8"/>
+        <webprotege:RC3kvUzvUc1SWagaaBMr1TM rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16</webprotege:RC3kvUzvUc1SWagaaBMr1TM>
+        <rdfs:label xml:lang="en">Apple_Unified_Memory_16GB</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rj03NE6aFk0DR9IxCTPUno -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rj03NE6aFk0DR9IxCTPUno">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBHc1vAVdrnfDWaUI8CVyR6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RlosPK4JB01fVEOSqcxLZw -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RlosPK4JB01fVEOSqcxLZw">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBHc1vAVdrnfDWaUI8CVyR6"/>
+        <webprotege:R76LIzVswutiphHwvdHmksS rdf:resource="http://webprotege.stanford.edu/RCzDmqcRBitdKVBQfrsA6HB"/>
+        <webprotege:R8Hwysdx9yBUO6kuwSMGBXQ rdf:resource="http://webprotege.stanford.edu/RBOlNJlKYXFb3TBPCIpj53N"/>
+        <webprotege:RBJDCFb4LMjNlsYqETckSy7 rdf:resource="http://webprotege.stanford.edu/R8T49IsBKMPnedSL5NPD7Wc"/>
+        <webprotege:RC7hRAO13SsNjop7pI4oe1t rdf:resource="http://webprotege.stanford.edu/RBvl4LENAarbEtnRPvDTHJM"/>
+        <webprotege:RCBkWigyl8sQg5IrgYlSNRq rdf:resource="http://webprotege.stanford.edu/R9ZSEamCvi9WV5QTye14Qm7"/>
+        <webprotege:R7WoRT9y0Xh336c52HCOebY>Dell Inspiron 15 3000</webprotege:R7WoRT9y0Xh336c52HCOebY>
+        <rdfs:label xml:lang="en">Dell_Inspiron_15_3000</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
